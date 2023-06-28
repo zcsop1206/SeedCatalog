@@ -1,5 +1,5 @@
-import seed from "./app.mjs"
-const {MongoClient} = require('mongodb');
+import * as seed from "./app.mjs" //may cause runtime problems
+import MongoClient from "mongodb" //may cause a problem
 
 async function main(){
     const uri = "mongodb+srv://aditbhargava:nJsOjDvekE0Qn97T@seedcatalogcluster.4ijiqfq.mongodb.net/?retryWrites=true&w=majority";
