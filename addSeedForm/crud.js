@@ -1,4 +1,4 @@
-import seed from "./app.js"
+import seed from "./app.mjs"
 const {MongoClient} = require('mongodb');
 
 async function main(){
