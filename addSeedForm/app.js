@@ -68,4 +68,5 @@ var seed = addSeedForm.addEventListener("submit", (e) => {
         var seed = new Seed(addSeedFormData.get("seed_name"),addSeedFormData.get("seed_category"), addSeedFormData.get("seed_image"), addSeedFormData.get("planting_season"),addSeedFormData.get("description"),addSeedFormData.get("germination_rate"),addSeedFormData.get("days_to_germination"),addSeedFormData.get("days_to_maturity"),addSeedFormData.get("plant_height"),addSeedFormData.get("disease_resistance"),addSeedFormData.get("yield_potential"),addSeedFormData.get("planting_depth"),addSeedFormData.get("spacing_requirements"),addSeedFormData.get("sunlight_requirements"),addSeedFormData.get("watering_needs"),addSeedFormData.get("soil_type"),addSeedFormData.get("fertilizer_recommendations"),addSeedFormData.get("harvesting_instructions"),addSeedFormData.get("seed_origin"),addSeedFormData.get("certification"),addSeedFormData.get("price"))
         return seed
 })
+export default seed
 createSeed("./crud.js")
